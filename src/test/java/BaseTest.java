@@ -1,11 +1,11 @@
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -26,7 +26,7 @@ public class BaseTest {
         driver = new ChromeDriver(options);
         wait = new WebDriverWait(driver, 60);
         driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
 
@@ -45,5 +45,11 @@ public class BaseTest {
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("return arguments[0].scrollIntoView(false);", element);
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+    }
+
+    public void fillField(WebElement element, String value) {
+        element.clear();
+        element.sendKeys(value);
+        element.sendKeys(Keys.TAB);
     }
 }
