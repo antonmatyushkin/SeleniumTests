@@ -20,7 +20,8 @@ public class BaseTest {
 
     @Before
     public void startScenario() {
-        System.setProperty("webdriver.chrome.driver", "drv/chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "drv/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drv/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("useAutomationExtension", false);
         driver = new ChromeDriver(options);
