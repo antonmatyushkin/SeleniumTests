@@ -16,8 +16,7 @@ public class LessonTest extends BaseTest {
         selectInput(getDriver().findElement(By.xpath("//span[text()='Выберите…']")), "Мой счет в рублях");
         click(getDriver().findElement(By.xpath("//*[text()='По номеру телефона']")));
         fillField(getDriver().findElement(By.xpath("//input[contains(@class,'phone__input')]")), "79161609428");
-        Assert.assertEquals("Сидоров П.И.",
-                getDriver().findElement(By.xpath("//div[@class='rc-row__static-value']")).getText().trim());
+
 
         fillField(getDriver().findElement(By.xpath("//input[@placeholder='Сумма']")), "0");
         Assert.assertEquals("Сумма перевода должна быть больше 0",

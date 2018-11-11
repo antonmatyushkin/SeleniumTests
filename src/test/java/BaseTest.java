@@ -1,9 +1,7 @@
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -46,6 +44,12 @@ public class BaseTest {
         JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("return arguments[0].scrollIntoView(false);", element);
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
+    }
+
+    public void scrollAndCheck(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+        js.executeScript("return arguments[0].scrollIntoView(false);", element);
+        Assert.assertTrue(element.isDisplayed());
     }
 
     public void fillField(WebElement element, String value) {

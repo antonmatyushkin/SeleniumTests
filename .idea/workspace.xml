@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="093902de-8752-49da-afda-3387643e7622" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork0711.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork1011.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumTests.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LessonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LessonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
+            <state relative-caret-position="629">
               <caret line="37" column="33" selection-start-line="35" selection-start-column="30" selection-end-line="37" selection-end-column="33" />
             </state>
           </provider>
@@ -32,20 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LessonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="59" column="55" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="55" />
+            <state relative-caret-position="731">
+              <caret line="49" column="65" lean-forward="true" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +42,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DepositeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="238">
+              <caret line="15" column="69" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LessonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork0711.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork1011.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,9 +103,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/DepositeTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HomeWork1011.java" />
         <option value="$PROJECT_DIR$/src/test/java/LessonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/HomeWork0711.java" />
       </list>
     </option>
   </component>
@@ -129,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -137,15 +163,32 @@
               <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541834036309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541927889297" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
@@ -164,18 +207,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LessonTest.testMethod2">
+  <component name="RunManager" selected="JUnit.HomeWork0711.testMethod2">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SeleniumTests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepositeTest.testDeposite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWork0711.testMethod1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTests" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepositeTest" />
-      <option name="METHOD_NAME" value="testDeposite" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork0711" />
+      <option name="METHOD_NAME" value="testMethod1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork0711.testMethod2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork0711" />
+      <option name="METHOD_NAME" value="testMethod2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -219,15 +281,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DepositeTest.testDeposite" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.LessonTest.testMethod" />
       <item itemvalue="JUnit.LessonTest.testMethod2" />
+      <item itemvalue="JUnit.HomeWork0711.testMethod1" />
+      <item itemvalue="JUnit.HomeWork0711.testMethod2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HomeWork0711.testMethod2" />
+        <item itemvalue="JUnit.HomeWork0711.testMethod1" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.LessonTest.testMethod2" />
         <item itemvalue="JUnit.LessonTest.testMethod" />
-        <item itemvalue="JUnit.DepositeTest.testDeposite" />
       </list>
     </recent_temporary>
   </component>
@@ -245,27 +311,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LessonTest_testMethod - 2018.11.08 at 19h 26m 51s.xml">
-      <configuration name="LessonTest.testMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_testMethod - 2018.11.08 at 19h 31m 13s.xml">
-      <configuration name="LessonTest.testMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_testMethod - 2018.11.08 at 19h 33m 32s.xml">
-      <configuration name="LessonTest.testMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_testMethod - 2018.11.08 at 19h 35m 07s.xml">
-      <configuration name="LessonTest.testMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_testMethod - 2018.11.08 at 19h 35m 31s.xml">
-      <configuration name="LessonTest.testMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_testMethod - 2018.11.08 at 19h 39m 33s.xml">
-      <configuration name="LessonTest.testMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LessonTest_testMethod2 - 2018.11.08 at 20h 20m 48s.xml">
-      <configuration name="LessonTest.testMethod2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LessonTest_testMethod2 - 2018.11.08 at 20h 24m 40s.xml">
       <configuration name="LessonTest.testMethod2" configurationId="JUnit" />
     </history-entry>
@@ -275,22 +320,44 @@
     <history-entry file="LessonTest_testMethod2 - 2018.11.08 at 20h 36m 30s.xml">
       <configuration name="LessonTest.testMethod2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LessonTest_testMethod2 - 2018.11.10 at 10h 11m 06s.xml">
+      <configuration name="LessonTest.testMethod2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonTest_testMethod2 - 2018.11.10 at 10h 11m 59s.xml">
+      <configuration name="LessonTest.testMethod2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LessonTest_testMethod2 - 2018.11.10 at 10h 14m 00s.xml">
+      <configuration name="LessonTest.testMethod2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeWork0711_testMethod1 - 2018.11.11 at 11h 44m 26s.xml">
+      <configuration name="HomeWork0711.testMethod1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeWork0711_testMethod2 - 2018.11.11 at 12h 04m 14s.xml">
+      <configuration name="HomeWork0711.testMethod2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeWork0711_testMethod2 - 2018.11.11 at 12h 15m 09s.xml">
+      <configuration name="HomeWork0711.testMethod2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeWork0711_testMethod2 - 2018.11.11 at 12h 17m 56s.xml">
+      <configuration name="HomeWork0711.testMethod2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1981" height="1127" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17932816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18346253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34068137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34068137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -298,7 +365,6 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -307,14 +373,43 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32956383" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/git_ers_project/ers-auto-test/src/main/java/com/raiffeisen/helpers/Base.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Main.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="33" selection-start-line="35" selection-start-column="30" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork1011.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DepositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="238">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LessonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -323,25 +418,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="731">
+          <caret line="49" column="65" lean-forward="true" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork0711.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="37" column="33" selection-start-line="35" selection-start-column="30" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LessonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="59" column="55" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="55" />
+        <state relative-caret-position="493">
+          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
