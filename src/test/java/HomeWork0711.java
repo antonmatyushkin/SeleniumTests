@@ -27,7 +27,7 @@ public class HomeWork0711 extends BaseTest {
         driver.get("https://www.raiffeisen.ru/");
         click(getDriver().findElement(By.xpath("//div[text()='Нет']")));
         Assert.assertTrue(getDriver().findElement(By.xpath("//a[text()='Выбор региона']")).isDisplayed());
-        click(getDriver().findElement(By.xpath("//a[text()='Владимир']")));
+        click(getDriver().findElement(By.xpath("//div[@class='b-popup__container']//child::a[text()='Владимир']")));
         Assert.assertEquals("Владимир",
                 getDriver().findElement(By.xpath("//li[@class='sec-menu__region sec-menu__region__gradient']//a")).getText().trim());
         scrollAndCheck(getDriver().findElement(By.xpath("//div[@class='footer__links col']//ul//li//a[text()='Качество обслуживания']")));
