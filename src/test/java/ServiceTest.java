@@ -3,7 +3,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomeWork0711 extends BaseTest {
+public class ServiceTest extends BaseTest {
 
     @Test
     public void testMethod1() {
