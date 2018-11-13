@@ -20,6 +20,13 @@ public class DriverManager {
         return driver;
     }
 
+    public static void quitDriver() {
+        if (driver != null) {
+            driver.quit();
+            driver = null;
+        }
+    }
+
     private static WebDriver createDriver() {
         switch (properties.getProperty("browser")) {
             case "chrome":
@@ -38,12 +45,5 @@ public class DriverManager {
         }
 
         return driver;
-    }
-
-    public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
-        }
     }
 }
