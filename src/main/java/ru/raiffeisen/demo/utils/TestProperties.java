@@ -15,7 +15,7 @@ public class TestProperties {
 
     private TestProperties() {
         try {
-            properties.load(new FileInputStream(new File("./" + System.getProperty("environment") + ".properties")));
+            properties.load(new FileInputStream(new File("./" + System.getProperty("application") + ".properties")));
         } catch (IOException e) {
             e.printStackTrace();
             Assert.fail("Не найден файл с настройками!");

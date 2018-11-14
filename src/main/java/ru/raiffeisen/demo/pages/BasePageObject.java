@@ -19,7 +19,7 @@ public class BasePageObject {
         PageFactory.initElements(DriverManager.getDriver(), this);
     }
 
-    public void fillField(WebElement field, String value){
+    public void fillField(WebElement field, String value) {
         JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
         js.executeScript("return arguments[0].style.border='1px solid magenta';", field);
         field.clear();
@@ -27,13 +27,13 @@ public class BasePageObject {
         js.executeScript("return arguments[0].style.border='1px solid black';", field);
     }
 
-    public void click(WebElement element){
+    public void click(WebElement element) {
         wait.until(ExpectedConditions.visibilityOf(element)).click();
     }
 
-    public void selectMenuItem(List<WebElement> menuItems, String itemName){
-        for (WebElement item : menuItems ){
-            if (item.getText().equalsIgnoreCase(itemName)){
+    public void selectMenuItem(List<WebElement> menuItems, String itemName) {
+        for (WebElement item : menuItems) {
+            if (item.getText().equalsIgnoreCase(itemName)) {
                 item.click();
                 return;
             }
@@ -51,4 +51,11 @@ public class BasePageObject {
         js.executeScript("return arguments[0].scrollIntoView(false);", element);
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
     }
+
+    public void scrollAndCheck(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+        js.executeScript("return arguments[0].scrollIntoView(false);", element);
+        Assert.assertTrue(element.isDisplayed());
+    }
+
 }
