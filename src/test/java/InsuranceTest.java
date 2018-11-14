@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class InsuranceTest extends BaseTest {
 
-    @Test
+
     public void testMethod1() {
         WebDriver driver = getDriver();
         driver.get("https://www.raiffeisen.ru/");

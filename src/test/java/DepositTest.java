@@ -12,8 +12,7 @@ import java.util.HashMap;
 
 public class DepositTest extends BaseTest {
 
-    @Test
-    @Ignore
+
     public void testDeposit() {
         HashMap<String, String> testData = new HashMap<>();
         testData.put("Фамилия", "Иванов");

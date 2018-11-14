@@ -53,6 +53,11 @@ public class DepositPage extends BasePageObject {
     @FieldName(name = "Осталось заполнить Телефон")
     public WebElement notFilledField;
 
+    @FindBy(xpath = "//*[contains(text(),'подтверждаю')]/..")
+    @FieldName(name = "Я подтверждаю")
+    public WebElement acceptCheckBox;
+
+
 
     public WebElement getField(String name) throws Exception {
         Class depositePageClass = Class.forName("ru.raiffeisen.demo.pages.DepositPage");

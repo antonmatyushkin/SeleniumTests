@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: MyStepsTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.093 s <<< FAILURE! - in MyStepsTest
-testMethod(MyStepsTest)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: Не найден файл с настройками!
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.221 s - in MyStepsTest

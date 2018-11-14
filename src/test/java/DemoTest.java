@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class DemoTest extends BaseTest {
 
-    @Test
+
     public void testMethod() {
         WebDriver driver = getDriver();
         driver.get("https://online.raiffeisen.ru/demo/");
@@ -33,7 +33,7 @@ public class DemoTest extends BaseTest {
         click(getDriver().findElement(By.xpath("//button//*[text()='Перевести']")));
     }
 
-    @Test
+
     public void testMethod2() {
         WebDriver driver = getDriver();
         driver.get("https://online.raiffeisen.ru/demo/");

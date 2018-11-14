@@ -21,7 +21,7 @@ public class MyStepsTest extends BaseSteps {
         testData.put("Дата рождения", "12121992");
         testData.put("Телефон", "9101234567");
         testData.put("Город", "Москва");
-        testData.put("Отделение", "732, дополнительный офис «Отделение «Бескудниково»");
+        testData.put("Отделение банка", "732, дополнительный офис «Отделение «Бескудниково»");
 
         HashMap<String, String> testCheckData = new HashMap<>();
         testCheckData.put("Дата рождения", "12.12.1992");
@@ -32,18 +32,19 @@ public class MyStepsTest extends BaseSteps {
         mainSteps.selectSubMenuItem("Накопительные счета");
 
         depositListSteps.openDeposit("На каждый день");
-
         depositSteps.click("Оставить заявку");
         depositSteps.fillField("Фамилия", testData.get("Фамилия"));
         depositSteps.fillField("Имя", testData.get("Имя"));
         depositSteps.fillField("Отчество", testData.get("Отчество"));
         depositSteps.fillField("Дата рождения", testData.get("Дата рождения"));
         depositSteps.fillField("Телефон", testData.get("Телефон"));
-
         depositSteps.checkField("Дата рождения", testCheckData.get("Дата рождения"));
         depositSteps.checkField("Телефон", testCheckData.get("Телефон"));
-
         depositSteps.checkFieldIsEnabled("Выслать код");
+        depositSteps.selectInput("Город", testData.get("Город"));
+        depositSteps.selectInput("Отделение банка", testData.get("Отделение банка"));
+        depositSteps.click("Я подтверждаю");
+        depositSteps.checkFieldIsPresent("Осталось заполнить Телефон");
     }
 
 }

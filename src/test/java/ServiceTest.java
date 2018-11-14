@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ServiceTest extends BaseTest {
 
-    @Test
+
     public void testMethod1() {
         WebDriver driver = getDriver();
         driver.get("https://www.raiffeisen.ru/");
@@ -21,7 +21,7 @@ public class ServiceTest extends BaseTest {
         Assert.assertTrue(getDriver().findElement(By.xpath("//div[text()='Минимальная сумма перевода – 10 р.']")).isDisplayed());
     }
 
-    @Test
+
     public void testMethod2() {
         WebDriver driver = getDriver();
         driver.get("https://www.raiffeisen.ru/");
