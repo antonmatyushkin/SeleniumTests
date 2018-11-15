@@ -46,7 +46,5 @@ public class DepositSteps {
         } finally {
             DriverManager.getDriver().manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         }
-
-
     }
 }

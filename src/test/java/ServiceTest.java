@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ServiceTest extends BaseTest {
 
@@ -26,7 +27,7 @@ public class ServiceTest extends BaseTest {
         WebDriver driver = getDriver();
         driver.get("https://www.raiffeisen.ru/");
         click(getDriver().findElement(By.xpath("//div[text()='Нет']")));
-        Assert.assertTrue(getDriver().findElement(By.xpath("//a[text()='Выбор региона']")).isDisplayed());
+        wait.until(ExpectedConditions.visibilityOf(getDriver().findElement(By.xpath("//div[@class='region-list js-region-list']"))));
         click(getDriver().findElement(By.xpath("//div[@class='b-popup__container']//child::a[text()='Владимир']")));
         Assert.assertEquals("Владимир",
                 getDriver().findElement(By.xpath("//li[@class='sec-menu__region sec-menu__region__gradient']//a")).getText().trim());

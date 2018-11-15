@@ -2,29 +2,47 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import ru.raiffeisen.demo.steps.InsuranceListSteps;
+import ru.raiffeisen.demo.steps.InsuranceSteps;
+import ru.raiffeisen.demo.steps.MainSteps;
+
+import java.util.HashMap;
 
 public class InsuranceTest extends BaseTest {
 
+    MainSteps mainSteps = new MainSteps();
+    InsuranceListSteps insuranceListSteps = new InsuranceListSteps();
+    InsuranceSteps insuranceSteps = new InsuranceSteps();
 
-    public void testMethod1() {
-        WebDriver driver = getDriver();
-        driver.get("https://www.raiffeisen.ru/");
-        click(getDriver().findElement(By.xpath("//a[text()='Страхование']")));
-        click(getDriver().findElement(By.xpath("//div[text()='В путешествие']//following::a[@class='menu-block__href']")));
-        //Для варианта "Вояж Бизнес класс"
-        click(getDriver().findElement(By.xpath("//div[@class='b-intro__block-content']//a[text()='Оставить заявку']")));
-        Assert.assertTrue(getDriver().findElement(By.xpath("//h1[text()='Форма заявки на страховую программу']")).isDisplayed());
-        Assert.assertEquals("Вояж (Комфорт/Бизнес класс/Первый класс)",
-                getDriver().findElement(By.xpath("//span[@class='ui-selectmenu-text']")).getText().trim());
-        fillField(getDriver().findElement(By.xpath("//input[@placeholder='Фамилия']")), "Иванов");
-        fillField(getDriver().findElement(By.xpath("//input[@placeholder='Имя']")), "Иван");
-        fillField(getDriver().findElement(By.xpath("//input[@placeholder='Отчество']")), "Иванович");
-        fillField(getDriver().findElement(By.xpath("//div[@class='input-block input-calendar']")), "11111980");
-        fillField(getDriver().findElement(By.xpath("//div[@class='input-block']//input[@sys_name='phone']")), "9161609428");
-        fillField(getDriver().findElement(By.xpath("//input[@placeholder='Электронная почта']")), "test@test.ru");
-        click(getDriver().findElement(By.xpath("//span[@class='checkbox-block__span']")));
-        fillField(getDriver().findElement(By.xpath("//input[@placeholder='Проверочный код']")), "12345");
-        Assert.assertEquals("button",
-                getDriver().findElement(By.xpath("//div[@class='b-block-row']//child::button[contains(text(),' Отправить')]")).getAttribute("class"));
+    @Test
+    public void travelInsuranceTest() throws Exception {
+        HashMap<String, String> testData = new HashMap<>();
+        testData.put("Фамилия", "Иванов");
+        testData.put("Имя", "Иван");
+        testData.put("Отчество", "Иванович");
+        testData.put("Дата рождения", "11111980");
+        testData.put("Телефон", "9101234567");
+        testData.put("Электронная почта", "test@test.ru");
+        testData.put("Проверочный код", "15926");
+
+        HashMap<String, String> testCheckData = new HashMap<>();
+        testCheckData.put("Продукт", "Вояж (Комфорт/Бизнес класс/Первый класс)");
+
+        mainSteps.acceptRegion();
+        mainSteps.selectMenuItem("Страхование");
+        mainSteps.selectSubMenuItem("В путешествие");
+        insuranceListSteps.getInsurance("Вояж Бизнес класс");
+        insuranceSteps.click("Оставить заявку");
+        insuranceSteps.checkFieldIsEnabled("Форма заявки на страховую программу");
+        insuranceSteps.checkField("Продукт", testCheckData.get("Продукт"));
+        insuranceSteps.fillField("Фамилия", testData.get("Фамилия"));
+        insuranceSteps.fillField("Имя", testData.get("Имя"));
+        insuranceSteps.fillField("Отчество", testData.get("Отчество"));
+        insuranceSteps.fillField("Дата рождения", testData.get("Дата рождения"));
+        insuranceSteps.fillField("Телефон", testData.get("Телефон"));
+        insuranceSteps.fillField("Электронная почта", testData.get("Электронная почта"));
+        insuranceSteps.fillField("Проверочный код", testData.get("Проверочный код"));
+        insuranceSteps.click("Я подтверждаю");
+        insuranceSteps.checkFieldIsPresent("Отправить");
     }
 }
