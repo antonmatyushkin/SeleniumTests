@@ -33,7 +33,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>**/CucumberRunner.java</include>
+                        <include>**/runners.CucumberRunner.java</include>
                         <!--<include>**/CucumberReRunner.java</include>-->
                     </includes>
                 </configuration>
