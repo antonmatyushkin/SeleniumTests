@@ -32,4 +32,5 @@ public class TestProperties {
     public Properties getProperties() {
         return properties;
     }
+
 }

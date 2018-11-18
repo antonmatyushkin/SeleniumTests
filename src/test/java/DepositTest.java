@@ -1,4 +1,3 @@
-import org.junit.Test;
 import ru.raiffeisen.demo.steps.BaseSteps;
 import ru.raiffeisen.demo.steps.DepositListSteps;
 import ru.raiffeisen.demo.steps.DepositSteps;
@@ -12,7 +11,7 @@ public class DepositTest extends BaseSteps {
     DepositListSteps depositListSteps = new DepositListSteps();
     DepositSteps depositSteps = new DepositSteps();
 
-    @Test
+
     public void openSavingAccountTest() throws Exception {
         HashMap<String, String> testData = new HashMap<>();
         testData.put("Фамилия", "Иванов");
