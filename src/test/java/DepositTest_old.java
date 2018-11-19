@@ -1,15 +1,15 @@
 import ru.raiffeisen.demo.steps.BaseSteps;
-import ru.raiffeisen.demo.steps.DepositListSteps;
-import ru.raiffeisen.demo.steps.DepositSteps;
+import ru.raiffeisen.demo.steps.DepositListSteps_old;
+import ru.raiffeisen.demo.steps.DepositSteps_old;
 import ru.raiffeisen.demo.steps.MainSteps;
 
 import java.util.HashMap;
 
-public class DepositTest extends BaseSteps {
+public class DepositTest_old extends BaseSteps {
 
     MainSteps mainSteps = new MainSteps();
-    DepositListSteps depositListSteps = new DepositListSteps();
-    DepositSteps depositSteps = new DepositSteps();
+    DepositListSteps_old depositListSteps = new DepositListSteps_old();
+    DepositSteps_old depositSteps = new DepositSteps_old();
 
 
     public void openSavingAccountTest() throws Exception {

@@ -1,18 +1,15 @@
-import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import ru.raiffeisen.demo.steps.InsuranceListSteps;
-import ru.raiffeisen.demo.steps.InsuranceSteps;
+import ru.raiffeisen.demo.steps.InsuranceListSteps_old;
+import ru.raiffeisen.demo.steps.InsuranceSteps_old;
 import ru.raiffeisen.demo.steps.MainSteps;
 
 import java.util.HashMap;
 
-public class InsuranceTest extends BaseTest {
+public class InsuranceTest_old extends BaseTest_old {
 
     MainSteps mainSteps = new MainSteps();
-    InsuranceListSteps insuranceListSteps = new InsuranceListSteps();
-    InsuranceSteps insuranceSteps = new InsuranceSteps();
+    InsuranceListSteps_old insuranceListSteps = new InsuranceListSteps_old();
+    InsuranceSteps_old insuranceSteps = new InsuranceSteps_old();
 
     @Test
     public void travelInsuranceTest() throws Exception {

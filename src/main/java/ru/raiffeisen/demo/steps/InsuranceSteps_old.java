@@ -1,17 +1,16 @@
 package ru.raiffeisen.demo.steps;
 
 import org.junit.Assert;
-import org.junit.Test;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import ru.raiffeisen.demo.pages.InsurancePage;
+import ru.raiffeisen.demo.pages.InsurancePage_old;
 import ru.raiffeisen.demo.utils.DriverManager;
 
 import java.util.concurrent.TimeUnit;
 
-public class InsuranceSteps extends BaseSteps {
+public class InsuranceSteps_old extends BaseSteps {
 
-    InsurancePage insurancePage = new InsurancePage();
+    InsurancePage_old insurancePage = new InsurancePage_old();
 
     public void fillField(String name, String value) throws Exception {
         WebElement element = insurancePage.getField(name);

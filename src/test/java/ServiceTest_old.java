@@ -1,10 +1,9 @@
 import org.junit.Assert;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class ServiceTest extends BaseTest {
+public class ServiceTest_old extends BaseTest_old {
 
 
     public void testMethod1() {

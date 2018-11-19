@@ -7,13 +7,13 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/java/features"},
-        glue = {"ru.raiifeisen.demo"},
+        glue = {"ru.raiffeisen.demo"},
         plugin = {"json:target/cucumber-reports.json",
                 "pretty",
                 "html:target/cucumber-reports",
                 "rerun:rerun.txt"
-        },
-        tags = {"@web"}
+        }
+        ,tags = {"@web"}
 )
 public class CucumberRunner {
 }

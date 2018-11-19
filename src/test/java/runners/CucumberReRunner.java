@@ -6,8 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "@rerun.txt",
-        //Cucumber picks the failed scenarios from this file ,
-        glue = {"ru.aplana.demo"},
+        glue = {"ru.raiffeisen.demo"},
         plugin = {"json:target/cucumber-report.json",
                 "pretty",
                 "html:target/cucumber-reports"})

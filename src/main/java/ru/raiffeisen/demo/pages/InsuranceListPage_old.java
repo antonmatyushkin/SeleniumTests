@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class InsuranceListPage extends BasePageObject {
+public class InsuranceListPage_old extends BasePage {
 
     @FindBy(xpath = "//div[@class='b-intro__block-content']")
     public List<WebElement> insuranceCollection;

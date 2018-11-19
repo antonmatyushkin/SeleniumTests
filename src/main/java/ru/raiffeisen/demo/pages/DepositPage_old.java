@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
 
-public class DepositPage extends BasePageObject {
+public class DepositPage_old extends BasePage {
 
     @FindBy(xpath = "//a[text()='Оставить заявку'][@class='button']")
     @FieldName(name = "Оставить заявку")
@@ -60,7 +60,7 @@ public class DepositPage extends BasePageObject {
 
 
     public WebElement getField(String name) throws Exception {
-        Class depositePageClass = Class.forName("ru.raiffeisen.demo.pages.DepositPage");
+        Class depositePageClass = Class.forName("ru.raiffeisen.demo.pages.DepositPage_old");
         List<Field> fields = Arrays.asList(depositePageClass.getFields());
 
         for (Field field : fields) {

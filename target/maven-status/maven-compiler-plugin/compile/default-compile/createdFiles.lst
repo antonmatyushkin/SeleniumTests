@@ -1,15 +1,2 @@
-ru/raiffeisen/demo/annotation/FieldName.class
-ru/raiffeisen/demo/pages/DepositPage.class
-ru/raiffeisen/demo/steps/DepositSteps.class
-ru/raiffeisen/demo/steps/DepositListSteps.class
-ru/raiffeisen/demo/steps/BaseSteps.class
-ru/raiffeisen/demo/pages/InsuranceListPage.class
-ru/raiffeisen/demo/pages/BasePageObject.class
-ru/raiffeisen/demo/pages/DepositListPage.class
-ru/raiffeisen/demo/steps/MainSteps.class
-ru/raiffeisen/demo/utils/TestProperties.class
-ru/raiffeisen/demo/steps/InsuranceSteps.class
-ru/raiffeisen/demo/utils/DriverManager.class
-ru/raiffeisen/demo/pages/InsurancePage.class
-ru/raiffeisen/demo/steps/InsuranceListSteps.class
-ru/raiffeisen/demo/pages/MainPage.class
+ru\raiffeisen\demo\pages\BasePage.class
+ru\raiffeisen\demo\steps\BaseSteps.class

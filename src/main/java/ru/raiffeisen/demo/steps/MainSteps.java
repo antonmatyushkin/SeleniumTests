@@ -17,8 +17,13 @@ public class MainSteps {
         mainPage.selectMenuItem(mainPage.subMenu, itemName);
     }
 
-    @When("подтвержден регион")
+    @When("Подтвержден регион")
     public void acceptRegion() {
         mainPage.click(mainPage.acceptRegion);
+    }
+
+    @When("Закрыто всплывающее окно")
+    public void closeBunner() {
+        mainPage.click(mainPage.closeBtn);
     }
 }

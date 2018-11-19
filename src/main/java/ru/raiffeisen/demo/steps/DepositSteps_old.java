@@ -3,14 +3,14 @@ package ru.raiffeisen.demo.steps;
 import org.junit.Assert;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import ru.raiffeisen.demo.pages.DepositPage;
+import ru.raiffeisen.demo.pages.DepositPage_old;
 import ru.raiffeisen.demo.utils.DriverManager;
 
 import java.util.concurrent.TimeUnit;
 
-public class DepositSteps {
+public class DepositSteps_old {
 
-    DepositPage depositPage = new DepositPage();
+    DepositPage_old depositPage = new DepositPage_old();
 
     public void fillField(String name, String value) throws Exception {
         WebElement element = depositPage.getField(name);

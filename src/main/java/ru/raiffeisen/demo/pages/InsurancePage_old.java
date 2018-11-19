@@ -11,7 +11,7 @@ import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
 
-public class InsurancePage extends BasePageObject {
+public class InsurancePage_old extends BasePage {
 
     @FindBy(xpath = "//a[text()='Оставить заявку'][@class='button']/ancestor::div[@class='b-intro__block-buttons']")
     @FieldName(name = "Оставить заявку")
@@ -63,7 +63,7 @@ public class InsurancePage extends BasePageObject {
 
 
     public WebElement getField(String name) throws Exception {
-        Class depositePageClass = Class.forName("ru.raiffeisen.demo.pages.InsurancePage");
+        Class depositePageClass = Class.forName("ru.raiffeisen.demo.pages.InsurancePage_old");
         List<Field> fields = Arrays.asList(depositePageClass.getFields());
 
         for (Field field : fields) {
