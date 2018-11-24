@@ -15,6 +15,9 @@ public class MainPage extends BasePage {
     @FindBy(xpath = "//*[text()='Да']")
     public WebElement acceptRegion;
 
+    @FindBy(xpath = "//icon-close")
+    public WebElement closeBtn;
+
     @Override
     public WebElement getField(String className) throws Exception {
         return getField(className, "ru.raiffeisen.demo.pages.MainPage");
