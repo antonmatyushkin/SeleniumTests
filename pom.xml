@@ -34,14 +34,17 @@
                 <version>2.20.1</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
+                    <useFile>false</useFile>
                     <includes>
-                        <include>**/runners.CucumberRunner.java</include>
+                        <include>**/CucumberRunner.java</include>
                         <!--<include>**/CucumberReRunner.java</include>-->
                     </includes>
                     <argLine>
-                        -javaagent: ${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                        <!-- -Dfile.encoding=UTF-8 -Xmx1024m-->
+                        -javaagent: "${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         <!-- -Dcucumber.options="&#45;&#45;plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"-->
                     </argLine>
+                    <reuseForks>false</reuseForks>
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>

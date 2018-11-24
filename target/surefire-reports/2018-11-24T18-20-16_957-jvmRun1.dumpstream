@@ -1,4 +1,4 @@
-# Created on 2018-11-24T17:29:36.579
+# Created on 2018-11-24T18:20:17.182
 Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Error occurred during initialization of VM'.
 java.lang.IllegalArgumentException: Stream stdin corrupted. Expected comma after third character in command 'Error occurred during initialization of VM'.
 	at org.apache.maven.plugin.surefire.booterclient.output.ForkClient$OperationalData.<init>(ForkClient.java:506)
