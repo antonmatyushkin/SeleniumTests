@@ -1,11 +1,13 @@
 /home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/steps/BaseSteps.java
-/home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/utils/DriverManager.java
 /home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/utils/TestProperties.java
 /home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/pages/MainPage.java
-/home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/pages/BasePage.java
-/home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java
 /home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/steps/MainSteps.java
 /home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/pages/TransferResultPage.java
+/home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/utils/DriverManager.java
+/home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/pages/DepositPage.java
+/home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/pages/BasePage.java
+/home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java
+/home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/pages/DepositListPage.java
 /home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/pages/TransferPage.java
 /home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java
 /home/test/Git/SeleniumTests/src/main/java/ru/raiffeisen/demo/annotation/FieldName.java

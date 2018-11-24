@@ -1,0 +1,21 @@
+[ {
+  "uid" : "cb9993ae0cc0c920",
+  "name" : "Перевод клиенту банка",
+  "time" : {
+    "start" : 1543082309608,
+    "stop" : 1543082553385,
+    "duration" : 243777
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ef7be4a94e1a677",
+  "name" : "Заявка на вклад",
+  "time" : {
+    "start" : 1543082304501,
+    "stop" : 1543082309530,
+    "duration" : 5029
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

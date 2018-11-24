@@ -9,7 +9,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <file.encoding>UTF-8</file.encoding>
         <aspectj.version>1.8.10</aspectj.version>
-</properties>
+    </properties>
     
     <groupId>SeleniumTests</groupId>
     <artifactId>SeleniumTests</artifactId>
@@ -34,15 +34,14 @@
                 <version>2.20.1</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <useFile>false</useFile>
+                    <!--<useFile>false</useFile>-->
                     <includes>
                         <include>**/CucumberRunner.java</include>
                         <!--<include>**/CucumberReRunner.java</include>-->
                     </includes>
                     <argLine>
-                        <!-- -Dfile.encoding=UTF-8 -Xmx1024m-->
-                        -javaagent: "${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                        <!-- -Dcucumber.options="&#45;&#45;plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"-->
+                        -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                        -Dcucumber.options="--plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"
                     </argLine>
                     <reuseForks>false</reuseForks>
                     <systemProperties>

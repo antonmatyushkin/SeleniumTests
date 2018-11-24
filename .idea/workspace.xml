@@ -2,41 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="093902de-8752-49da-afda-3387643e7622" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drv/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/drv/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositPage_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositPage_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositPage_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsuranceListPage_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsuranceListPage_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsuranceListPage_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsurancePage_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsurancePage_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsurancePage_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositListSteps_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositListSteps_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositListSteps_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceListSteps_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceListSteps_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceListSteps_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceSteps_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceSteps_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceSteps_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/MainSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/MainSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DemoTest_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DemoTest_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DemoTest_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DepositTest_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DepositTest_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DepositTest_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InsuranceTest_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InsuranceTest_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InsuranceTest_old.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ServiceTest_old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ServiceTest_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServiceTest_old.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/DepositTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/DepositTest.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/raiffeisen/demo/steps/ScenarioSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/raiffeisen/demo/steps/ScenarioSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-11-24T18-20-16_957-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2018-11-24T18-20-17_181.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/CucumberRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/CucumberRunner.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,20 +27,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/TransferTest.feature">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/DepositTest.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/TransferTest.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/MainSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="493">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -86,6 +100,9 @@
     <findStrings>
       <find>getField</find>
       <find>apl</find>
+      <find>fillField</find>
+      <find>checkField</find>
+      <find>выбран вклад</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,13 +118,9 @@
         <option value="$PROJECT_DIR$/src/test/java/AssuranceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsurancePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositListSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/annotation/FieldName.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyStepsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/DemoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/InsuranceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ServiceTest.java" />
@@ -116,20 +129,16 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/utils/TestProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/utils/Hexlet.java" />
         <option value="$PROJECT_DIR$/src/test/java/DepositTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/DepositTest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/features/transfer.feature" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/TransferResultPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePageObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/TransferPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/runners/CucumberReRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/TransferTest.feature" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/MainSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/reporter/Reporter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/BaseSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage_old.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceListSteps_old.java" />
@@ -145,6 +154,14 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceSteps_old.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps_old.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositListSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/TransferTest.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/DepositTest.feature" />
       </list>
     </option>
   </component>
@@ -191,18 +208,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
@@ -255,6 +266,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,16 +315,34 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-maven-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543068644064" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543083222635" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -357,7 +395,7 @@
                 <option value="clean" />
                 <option value="-Denvironment=linux_application" />
                 <option value="test" />
-                <option value="site" />
+                <option value="allure:report" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -428,9 +466,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1981" height="1127" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19173126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19586563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -440,7 +477,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32865733" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33967936" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39278558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,15 +498,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositeListPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositePage.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -508,23 +536,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/utils/Hexlet.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/features/test.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/DepositTest.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -543,26 +554,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositPage_old.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsuranceListPage_old.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage_old.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/MainSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsurancePage_old.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceSteps_old.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps_old.java" />
@@ -573,26 +564,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" />
     <entry file="file://$PROJECT_DIR$/src/test/java/runners/CucumberReRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -620,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/TransferTest.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/BaseSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -634,10 +599,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linux_application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositListSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/DepositTest.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/TransferTest.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/MainSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="493">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>

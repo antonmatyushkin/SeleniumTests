@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 5029,
+    "maxDuration" : 243777,
+    "sumDuration" : 248806,
+    "start" : 1543082304501,
+    "stop" : 1543082553385,
+    "duration" : 248884
+  },
+  "children" : [ {
+    "uid" : "2c3ddb5e2d7d9c6d",
+    "name" : "Инетернет - банк",
+    "time" : {
+      "minDuration" : 243777,
+      "maxDuration" : 243777,
+      "sumDuration" : 243777,
+      "start" : 1543082309608,
+      "stop" : 1543082553385,
+      "duration" : 243777
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "cb9993ae0cc0c920",
+      "name" : "Перевод клиенту банка",
+      "time" : {
+        "start" : 1543082309608,
+        "stop" : 1543082553385,
+        "duration" : 243777
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "63d58a5c060edb4c",
+    "name" : "Депозит",
+    "time" : {
+      "minDuration" : 5029,
+      "maxDuration" : 5029,
+      "sumDuration" : 5029,
+      "start" : 1543082304501,
+      "stop" : 1543082309530,
+      "duration" : 5029
+    },
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "1ef7be4a94e1a677",
+      "name" : "Заявка на вклад",
+      "time" : {
+        "start" : 1543082304501,
+        "stop" : 1543082309530,
+        "duration" : 5029
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

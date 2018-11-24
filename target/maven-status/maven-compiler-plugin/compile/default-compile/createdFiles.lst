@@ -1,11 +1,13 @@
 ru/raiffeisen/demo/annotation/FieldName.class
 ru/raiffeisen/demo/pages/TransferPage.class
+ru/raiffeisen/demo/pages/DepositPage.class
+ru/raiffeisen/demo/pages/BasePage.class
+ru/raiffeisen/demo/steps/BaseSteps.class
+ru/raiffeisen/demo/pages/DepositListPage.class
+ru/raiffeisen/demo/steps/MainSteps.class
 ru/raiffeisen/demo/steps/ScenarioSteps.class
 ru/raiffeisen/demo/pages/TransferResultPage.class
 ru/raiffeisen/demo/utils/TestProperties.class
-ru/raiffeisen/demo/pages/BasePage.class
 ru/raiffeisen/demo/utils/DriverManager.class
-ru/raiffeisen/demo/steps/BaseSteps.class
 ru/raiffeisen/demo/reporter/AllureReporter.class
-ru/raiffeisen/demo/steps/MainSteps.class
 ru/raiffeisen/demo/pages/MainPage.class

@@ -1,0 +1,56 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "time" : {
+      "minDuration" : 5029,
+      "maxDuration" : 243777,
+      "sumDuration" : 248806,
+      "start" : 1543082304501,
+      "stop" : 1543082553385,
+      "duration" : 248884
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 2
+  } ],
+  "behaviors" : {
+    "total" : 2,
+    "items" : [ {
+      "name" : "Депозит",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    }, {
+      "name" : "Инетернет - банк",
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "launches" : [ ]
+}

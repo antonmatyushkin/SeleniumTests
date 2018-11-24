@@ -3,8 +3,11 @@ package ru.raiffeisen.demo.steps;
 import cucumber.api.DataTable;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import ru.raiffeisen.demo.pages.BasePage;
+import ru.raiffeisen.demo.pages.DepositListPage;
+import ru.raiffeisen.demo.pages.DepositPage;
 import ru.raiffeisen.demo.pages.TransferPage;
 import ru.raiffeisen.demo.utils.DriverManager;
 import java.util.NoSuchElementException;
@@ -13,7 +16,20 @@ import java.util.concurrent.TimeUnit;
 public class ScenarioSteps {
 
     TransferPage transferPage = new TransferPage();
+    DepositPage depositPage = new DepositPage();
+    DepositListPage depositListPage = new DepositListPage();
     static String currentPageName;
+
+    @When("выбран вклад \"(.*)\"")
+    public void openDeposit(String depositName){
+        for (WebElement item : depositListPage.depositCollection ){
+            if (item.findElement(By.xpath(".//p")).getText().contains(depositName)){
+                depositListPage.scrollAndClick(item.findElement(By.xpath(".//*[text()='Открыть счет']")));
+                return;
+            }
+        }
+        Assert.fail("Не найден элмент коллеции - " + depositName);
+    }
 
     @When("загружена страница \"(.*)\"")
     public void setCurrentPage(String pageName){

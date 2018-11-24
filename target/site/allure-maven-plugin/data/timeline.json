@@ -1,0 +1,83 @@
+{
+  "statistic" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 5029,
+    "maxDuration" : 243777,
+    "sumDuration" : 248806,
+    "start" : 1543082304501,
+    "stop" : 1543082553385,
+    "duration" : 248884
+  },
+  "children" : [ {
+    "uid" : "b2c20e3cd726a3c7",
+    "name" : "qa-vp",
+    "time" : {
+      "minDuration" : 5029,
+      "maxDuration" : 243777,
+      "sumDuration" : 248806,
+      "start" : 1543082304501,
+      "stop" : 1543082553385,
+      "duration" : 248884
+    },
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "8eaeb607a8271db8",
+      "name" : "16985@qa-vp.main(1)",
+      "time" : {
+        "minDuration" : 5029,
+        "maxDuration" : 243777,
+        "sumDuration" : 248806,
+        "start" : 1543082304501,
+        "stop" : 1543082553385,
+        "duration" : 248884
+      },
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "cb9993ae0cc0c920",
+        "name" : "Перевод клиенту банка",
+        "time" : {
+          "start" : 1543082309608,
+          "stop" : 1543082553385,
+          "duration" : 243777
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "1ef7be4a94e1a677",
+        "name" : "Заявка на вклад",
+        "time" : {
+          "start" : 1543082304501,
+          "stop" : 1543082309530,
+          "duration" : 5029
+        },
+        "status" : "failed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}
