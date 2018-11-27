@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/java/features/"}
         ,glue = {"ru.raiffeisen.demo"}
         ,plugin = {"pretty", "ru.raiffeisen.demo.reporter.AllureReporter"}
-        ,tags = {"@web"}
+        ,tags = {"@final"}
         )
 
 public class CucumberRunner {

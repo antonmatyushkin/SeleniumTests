@@ -1,21 +1,11 @@
 [ {
-  "uid" : "cb9993ae0cc0c920",
-  "name" : "Перевод клиенту банка",
+  "uid" : "c40c664b910c7dce",
+  "name" : "Ипотека: квартира на вторичном рынке",
   "time" : {
-    "start" : 1543082309608,
-    "stop" : 1543082553385,
-    "duration" : 243777
+    "start" : 1543343746544,
+    "stop" : 1543343753410,
+    "duration" : 6866
   },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ef7be4a94e1a677",
-  "name" : "Заявка на вклад",
-  "time" : {
-    "start" : 1543082304501,
-    "stop" : 1543082309530,
-    "duration" : 5029
-  },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 } ]

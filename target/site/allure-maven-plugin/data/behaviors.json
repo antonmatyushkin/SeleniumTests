@@ -1,122 +1,69 @@
 {
   "statistic" : {
-    "failed" : 2,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 0,
+    "passed" : 1,
     "unknown" : 0,
-    "total" : 2
+    "total" : 1
   },
   "time" : {
-    "minDuration" : 5029,
-    "maxDuration" : 243777,
-    "sumDuration" : 248806,
-    "start" : 1543082304501,
-    "stop" : 1543082553385,
-    "duration" : 248884
+    "minDuration" : 6866,
+    "maxDuration" : 6866,
+    "sumDuration" : 6866,
+    "start" : 1543343746544,
+    "stop" : 1543343753410,
+    "duration" : 6866
   },
   "children" : [ {
-    "uid" : "51c426a183a5ffab",
-    "name" : "Инетернет - банк",
+    "uid" : "96514b7e6dbeb17f",
+    "name" : "Ипотечный калькулятор",
     "time" : {
-      "minDuration" : 243777,
-      "maxDuration" : 243777,
-      "sumDuration" : 243777,
-      "start" : 1543082309608,
-      "stop" : 1543082553385,
-      "duration" : 243777
+      "minDuration" : 6866,
+      "maxDuration" : 6866,
+      "sumDuration" : 6866,
+      "start" : 1543343746544,
+      "stop" : 1543343753410,
+      "duration" : 6866
     },
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "c6bce2f195e0a890",
-      "name" : "Перевод клиенту банка",
+      "uid" : "b2c23b2778290041",
+      "name" : "Ипотека: квартира на вторичном рынке",
       "time" : {
-        "minDuration" : 243777,
-        "maxDuration" : 243777,
-        "sumDuration" : 243777,
-        "start" : 1543082309608,
-        "stop" : 1543082553385,
-        "duration" : 243777
+        "minDuration" : 6866,
+        "maxDuration" : 6866,
+        "sumDuration" : 6866,
+        "start" : 1543343746544,
+        "stop" : 1543343753410,
+        "duration" : 6866
       },
       "statistic" : {
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 0,
+        "passed" : 1,
         "unknown" : 0,
         "total" : 1
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "cb9993ae0cc0c920",
-        "name" : "Перевод клиенту банка",
+        "uid" : "c40c664b910c7dce",
+        "name" : "Ипотека: квартира на вторичном рынке",
         "time" : {
-          "start" : 1543082309608,
-          "stop" : 1543082553385,
-          "duration" : 243777
+          "start" : 1543343746544,
+          "stop" : 1543343753410,
+          "duration" : 6866
         },
-        "status" : "failed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    } ]
-  }, {
-    "uid" : "11bf1d45d79d1ace",
-    "name" : "Депозит",
-    "time" : {
-      "minDuration" : 5029,
-      "maxDuration" : 5029,
-      "sumDuration" : 5029,
-      "start" : 1543082304501,
-      "stop" : 1543082309530,
-      "duration" : 5029
-    },
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "type" : "TestGroupNode",
-    "children" : [ {
-      "uid" : "93b703d11a8dde92",
-      "name" : "Заявка на вклад",
-      "time" : {
-        "minDuration" : 5029,
-        "maxDuration" : 5029,
-        "sumDuration" : 5029,
-        "start" : 1543082304501,
-        "stop" : 1543082309530,
-        "duration" : 5029
-      },
-      "statistic" : {
-        "failed" : 1,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "1ef7be4a94e1a677",
-        "name" : "Заявка на вклад",
-        "time" : {
-          "start" : 1543082304501,
-          "stop" : 1543082309530,
-          "duration" : 5029
-        },
-        "status" : "failed",
+        "status" : "passed",
         "flaky" : false,
         "type" : "TestCaseNode"
       } ]

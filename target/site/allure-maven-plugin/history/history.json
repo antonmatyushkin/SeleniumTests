@@ -1,41 +1,20 @@
 {
-  "8910db73c9b9b751b9490e795b9c663a" : {
+  "f418c22e99999a15e490fb908fe3f204" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ef7be4a94e1a677",
-      "status" : "failed",
-      "statusDetails" : "Не найден элмент коллеции - Накопительные счета",
+      "uid" : "c40c664b910c7dce",
+      "status" : "passed",
       "time" : {
-        "start" : 1543082304501,
-        "stop" : 1543082309530,
-        "duration" : 5029
-      }
-    } ]
-  },
-  "24240ab7899b0ea9fd58587042a2bb24" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "cb9993ae0cc0c920",
-      "status" : "failed",
-      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //icon-close' (tried for 60 second(s) with 500 MILLISECONDS interval)",
-      "time" : {
-        "start" : 1543082309608,
-        "stop" : 1543082553385,
-        "duration" : 243777
+        "start" : 1543343746544,
+        "stop" : 1543343753410,
+        "duration" : 6866
       }
     } ]
   }

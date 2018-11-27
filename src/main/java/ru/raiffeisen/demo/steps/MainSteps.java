@@ -13,6 +13,11 @@ public class MainSteps {
     }
 
     @When("выбран подпункт меню \"(.*)\"")
+    public void selectSectionMenuItem(String itemName){
+        mainPage.selectMenuItem(mainPage.sectionMenu, itemName);
+    }
+
+    @When("выбрана услуга \"(.*)\"")
     public void selectSubMenuItem(String itemName){
         mainPage.selectMenuItem(mainPage.subMenu, itemName);
     }

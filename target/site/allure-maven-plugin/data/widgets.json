@@ -2,50 +2,40 @@
   "summary" : {
     "reportName" : "Allure Report",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     },
     "time" : {
-      "minDuration" : 5029,
-      "maxDuration" : 243777,
-      "sumDuration" : 248806,
-      "start" : 1543082304501,
-      "stop" : 1543082553385,
-      "duration" : 248884
+      "minDuration" : 6866,
+      "maxDuration" : 6866,
+      "sumDuration" : 6866,
+      "start" : 1543343746544,
+      "stop" : 1543343753410,
+      "duration" : 6866
     }
   },
   "environment" : [ ],
   "history-trend" : [ {
-    "failed" : 2,
+    "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 0,
+    "passed" : 1,
     "unknown" : 0,
-    "total" : 2
+    "total" : 1
   } ],
   "behaviors" : {
-    "total" : 2,
+    "total" : 1,
     "items" : [ {
-      "name" : "Депозит",
+      "name" : "Ипотечный калькулятор",
       "statistic" : {
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 0,
-        "unknown" : 0,
-        "total" : 1
-      }
-    }, {
-      "name" : "Инетернет - банк",
-      "statistic" : {
-        "failed" : 1,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 0,
+        "passed" : 1,
         "unknown" : 0,
         "total" : 1
       }

@@ -10,6 +10,9 @@ public class MainPage extends BasePage {
     public List<WebElement> mainMenu;
 
     @FindBy(xpath = "//a[contains(@class,'menu-section-link')][@href]")
+    public List<WebElement> sectionMenu;
+
+    @FindBy(xpath = "//a[contains(@class,'menu-link main-menu__link')][@href]")
     public List<WebElement> subMenu;
 
     @FindBy(xpath = "//*[text()='Да']")
