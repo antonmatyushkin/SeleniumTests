@@ -1,0 +1,295 @@
+{
+  "uid" : "8ba65b055c6e06f1",
+  "name" : "Ипотека: квартира на вторичном рынке",
+  "historyId" : "f418c22e99999a15e490fb908fe3f204",
+  "time" : {
+    "start" : 1543345716921,
+    "stop" : 1543345723811,
+    "duration" : 6890
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "ru.raiffeisen.demo.pages.null",
+    "trace" : "java.lang.ClassNotFoundException: ru.raiffeisen.demo.pages.null\n\tat java.net.URLClassLoader.findClass(URLClassLoader.java:381)\n\tat java.lang.ClassLoader.loadClass(ClassLoader.java:424)\n\tat sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)\n\tat java.lang.ClassLoader.loadClass(ClassLoader.java:357)\n\tat java.lang.Class.forName0(Native Method)\n\tat java.lang.Class.forName(Class.java:264)\n\tat ru.raiffeisen.demo.steps.ScenarioSteps.checkPageHeader(ScenarioSteps.java:53)\n\tat ✽.* проверили, что Заголовок страницы \"Ипотечный калькулятор\"(MortgageCalculator.feature:9)\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "ru.raiffeisen.demo.pages.null",
+      "trace" : "java.lang.ClassNotFoundException: ru.raiffeisen.demo.pages.null\n\tat java.net.URLClassLoader.findClass(URLClassLoader.java:381)\n\tat java.lang.ClassLoader.loadClass(ClassLoader.java:424)\n\tat sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)\n\tat java.lang.ClassLoader.loadClass(ClassLoader.java:357)\n\tat java.lang.Class.forName0(Native Method)\n\tat java.lang.Class.forName(Class.java:264)\n\tat ru.raiffeisen.demo.steps.ScenarioSteps.checkPageHeader(ScenarioSteps.java:53)\n\tat ✽.* проверили, что Заголовок страницы \"Ипотечный калькулятор\"(MortgageCalculator.feature:9)\n",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "BaseSteps.startScenario()",
+      "time" : {
+        "start" : 1543345720931,
+        "stop" : 1543345720933,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  выбран пункт меню \"Ипотека\"",
+      "time" : {
+        "start" : 1543345720936,
+        "stop" : 1543345721589,
+        "duration" : 653
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  выбрана услуга \"Ипотечный калькулятор\"",
+      "time" : {
+        "start" : 1543345721590,
+        "stop" : 1543345723709,
+        "duration" : 2119
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  проверили, что Заголовок страницы \"Ипотечный калькулятор\"",
+      "time" : {
+        "start" : 1543345723710,
+        "stop" : 1543345723729,
+        "duration" : 19
+      },
+      "status" : "failed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  выпадающий список \"Город\" заполняется значением \"Москва\"",
+      "time" : {
+        "start" : 1543345723729,
+        "stop" : 1543345723731,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  выполнено нажатие на \"Знаю свою ипотечную программу\"",
+      "time" : {
+        "start" : 1543345723731,
+        "stop" : 1543345723731,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  выпадающий список \"Вид ипотечной программы\" заполняется значением \"Квартира на вторичном рынке\"",
+      "time" : {
+        "start" : 1543345723732,
+        "stop" : 1543345723732,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  выпадающий список \"Я являюсь\" заполняется значением \"Новый клиент\"",
+      "time" : {
+        "start" : 1543345723732,
+        "stop" : 1543345723732,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  выпадающий список \"Уровень доходов подтверждаю\" заполняется значением \"Справка по форме Банка\"",
+      "time" : {
+        "start" : 1543345723732,
+        "stop" : 1543345723733,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  заполняются поля:",
+      "time" : {
+        "start" : 1543345723733,
+        "stop" : 1543345723739,
+        "duration" : 6
+      },
+      "status" : "skipped",
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70a826679dfa44cd",
+        "name" : "Data table",
+        "source" : "70a826679dfa44cd.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 110
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  выполнено нажатие на \"Рассчитать\"",
+      "time" : {
+        "start" : 1543345723739,
+        "stop" : 1543345723739,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  значение поля \"Ежемесячный платеж\" равно \"40 656.67 руб.\"",
+      "time" : {
+        "start" : 1543345723739,
+        "stop" : 1543345723739,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  значение поля \"Общая сумма выплат\" равно \"4 836 820.89 руб.\"",
+      "time" : {
+        "start" : 1543345723739,
+        "stop" : 1543345723740,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  значение поля \"Cумма выплат по процентам\" равно \"1 836 820.89 руб.\"",
+      "time" : {
+        "start" : 1543345723740,
+        "stop" : 1543345723740,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "*  значение поля \"Процентная ставка\" равно \"10.49 %\"",
+      "time" : {
+        "start" : 1543345723740,
+        "stop" : 1543345723740,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "BaseSteps.afterScenario()",
+      "time" : {
+        "start" : 1543345723810,
+        "stop" : 1543345723810,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 16
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Ипотечный калькулятор"
+  }, {
+    "name" : "story",
+    "value" : "Ипотека: квартира на вторичном рынке"
+  }, {
+    "name" : "tag",
+    "value" : "final"
+  }, {
+    "name" : "host",
+    "value" : "qa-vp"
+  }, {
+    "name" : "package",
+    "value" : "Ипотечный калькулятор"
+  }, {
+    "name" : "suite",
+    "value" : "Ипотечный калькулятор"
+  }, {
+    "name" : "testClass",
+    "value" : "Ипотека: квартира на вторичном рынке"
+  }, {
+    "name" : "thread",
+    "value" : "8865@qa-vp.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects"
+    } ]
+  }
+}

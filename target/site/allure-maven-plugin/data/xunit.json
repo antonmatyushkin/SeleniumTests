@@ -1,49 +1,49 @@
 {
   "statistic" : {
-    "failed" : 0,
+    "failed" : 1,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 0,
     "unknown" : 0,
     "total" : 1
   },
   "time" : {
-    "minDuration" : 6866,
-    "maxDuration" : 6866,
-    "sumDuration" : 6866,
-    "start" : 1543343746544,
-    "stop" : 1543343753410,
-    "duration" : 6866
+    "minDuration" : 6890,
+    "maxDuration" : 6890,
+    "sumDuration" : 6890,
+    "start" : 1543345716921,
+    "stop" : 1543345723811,
+    "duration" : 6890
   },
   "children" : [ {
-    "uid" : "7808deb607f5eae",
+    "uid" : "5ed1e161c09d7777",
     "name" : "Ипотечный калькулятор",
     "time" : {
-      "minDuration" : 6866,
-      "maxDuration" : 6866,
-      "sumDuration" : 6866,
-      "start" : 1543343746544,
-      "stop" : 1543343753410,
-      "duration" : 6866
+      "minDuration" : 6890,
+      "maxDuration" : 6890,
+      "sumDuration" : 6890,
+      "start" : 1543345716921,
+      "stop" : 1543345723811,
+      "duration" : 6890
     },
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "c40c664b910c7dce",
+      "uid" : "8ba65b055c6e06f1",
       "name" : "Ипотека: квартира на вторичном рынке",
       "time" : {
-        "start" : 1543343746544,
-        "stop" : 1543343753410,
-        "duration" : 6866
+        "start" : 1543345716921,
+        "stop" : 1543345723811,
+        "duration" : 6890
       },
-      "status" : "passed",
+      "status" : "failed",
       "flaky" : false,
       "type" : "TestCaseNode"
     } ]

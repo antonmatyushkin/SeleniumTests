@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: runners.CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.727 s - in runners.CucumberRunner
+Tests run: 15, Failures: 0, Errors: 2, Skipped: 11, Time elapsed: 7.813 s <<< FAILURE! - in runners.CucumberRunner
+* проверили, что Заголовок страницы "Ипотечный калькулятор"(Сценарий: Ипотека: квартира на вторичном рынке)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.ClassNotFoundException: ru.raiffeisen.demo.pages.null
+
+Сценарий: Ипотека: квартира на вторичном рынке  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.ClassNotFoundException: ru.raiffeisen.demo.pages.null
+

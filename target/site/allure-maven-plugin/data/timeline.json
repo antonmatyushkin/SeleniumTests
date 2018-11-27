@@ -1,69 +1,69 @@
 {
   "statistic" : {
-    "failed" : 0,
+    "failed" : 1,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 1,
+    "passed" : 0,
     "unknown" : 0,
     "total" : 1
   },
   "time" : {
-    "minDuration" : 6866,
-    "maxDuration" : 6866,
-    "sumDuration" : 6866,
-    "start" : 1543343746544,
-    "stop" : 1543343753410,
-    "duration" : 6866
+    "minDuration" : 6890,
+    "maxDuration" : 6890,
+    "sumDuration" : 6890,
+    "start" : 1543345716921,
+    "stop" : 1543345723811,
+    "duration" : 6890
   },
   "children" : [ {
-    "uid" : "a4f10f62afd69765",
+    "uid" : "348496f42ed41c15",
     "name" : "qa-vp",
     "time" : {
-      "minDuration" : 6866,
-      "maxDuration" : 6866,
-      "sumDuration" : 6866,
-      "start" : 1543343746544,
-      "stop" : 1543343753410,
-      "duration" : 6866
+      "minDuration" : 6890,
+      "maxDuration" : 6890,
+      "sumDuration" : 6890,
+      "start" : 1543345716921,
+      "stop" : 1543345723811,
+      "duration" : 6890
     },
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "6e7f7221a863a4b7",
-      "name" : "7049@qa-vp.main(1)",
+      "uid" : "718a3a0c7079090c",
+      "name" : "8865@qa-vp.main(1)",
       "time" : {
-        "minDuration" : 6866,
-        "maxDuration" : 6866,
-        "sumDuration" : 6866,
-        "start" : 1543343746544,
-        "stop" : 1543343753410,
-        "duration" : 6866
+        "minDuration" : 6890,
+        "maxDuration" : 6890,
+        "sumDuration" : 6890,
+        "start" : 1543345716921,
+        "stop" : 1543345723811,
+        "duration" : 6890
       },
       "statistic" : {
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 0,
         "unknown" : 0,
         "total" : 1
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "c40c664b910c7dce",
+        "uid" : "8ba65b055c6e06f1",
         "name" : "Ипотека: квартира на вторичном рынке",
         "time" : {
-          "start" : 1543343746544,
-          "stop" : 1543343753410,
-          "duration" : 6866
+          "start" : 1543345716921,
+          "stop" : 1543345723811,
+          "duration" : 6890
         },
-        "status" : "passed",
+        "status" : "failed",
         "flaky" : false,
         "type" : "TestCaseNode"
       } ]

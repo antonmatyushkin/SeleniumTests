@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.CucumberRunner" time="7.727" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.CucumberRunner" time="7.813" tests="15" errors="2" skipped="11" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/test/Git/SeleniumTests/target/surefire/surefirebooter2954808462084154006.jar /home/test/Git/SeleniumTests/target/surefire 2018-11-27T21-35-45_072-jvmRun1 surefire3360435311070128609tmp surefire_07226690860086206781tmp"/>
+    <property name="sun.java.command" value="/home/test/Git/SeleniumTests/target/surefire/surefirebooter1651484919725279377.jar /home/test/Git/SeleniumTests/target/surefire 2018-11-27T22-08-35_352-jvmRun1 surefire4030862745620806582tmp surefire_09040487964839272663tmp"/>
     <property name="surefire.test.class.path" value="/home/test/Git/SeleniumTests/target/test-classes:/home/test/Git/SeleniumTests/target/classes:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/test/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/test/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/test/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/test/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/test/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/test/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/test/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/test/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/test/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/test/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/test/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/test/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/test/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/test/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/home/test/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/test/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/test/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/test/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/test/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/test/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/test/.m2/repository/io/qameta/allure/allure-cucumber-jvm/2.8.0/allure-cucumber-jvm-2.8.0.jar:/home/test/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/test/.m2/repository/io/qameta/allure/allure-java-commons/2.8.0/allure-java-commons-2.8.0.jar:/home/test/.m2/repository/io/qameta/allure/allure-model/2.8.0/allure-model-2.8.0.jar:/home/test/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.7/jackson-databind-2.9.7.jar:/home/test/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/test/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar:/home/test/.m2/repository/org/apache/tika/tika-core/1.19.1/tika-core-1.19.1.jar:/home/test/.m2/repository/org/aspectj/aspectjrt/1.9.1/aspectjrt-1.9.1.jar:/home/test/.m2/repository/org/jooq/joor-java-8/0.9.9/joor-java-8-0.9.9.jar:/home/test/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="allure.results.directory" value="/home/test/Git/SeleniumTests/target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/test/Git/SeleniumTests/target/surefire/surefirebooter2954808462084154006.jar:/home/test/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="/home/test/Git/SeleniumTests/target/surefire/surefirebooter1651484919725279377.jar:/home/test/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
@@ -62,7 +62,47 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="* выбран пункт меню &quot;Ипотека&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.003"/>
+  <testcase name="* выбран пункт меню &quot;Ипотека&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.001"/>
   <testcase name="* выбрана услуга &quot;Ипотечный калькулятор&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
-  <testcase name="Сценарий: Ипотека: квартира на вторичном рынке" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.143"/>
+  <testcase name="* проверили, что Заголовок страницы &quot;Ипотечный калькулятор&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.006">
+    <error message="ru.raiffeisen.demo.pages.null" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: ru.raiffeisen.demo.pages.null
+</error>
+  </testcase>
+  <testcase name="Сценарий: Ипотека: квартира на вторичном рынке" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.006">
+    <error message="ru.raiffeisen.demo.pages.null" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: ru.raiffeisen.demo.pages.null
+</error>
+  </testcase>
+  <testcase name="* выпадающий список &quot;Город&quot; заполняется значением &quot;Москва&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* выполнено нажатие на &quot;Знаю свою ипотечную программу&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* выпадающий список &quot;Вид ипотечной программы&quot; заполняется значением &quot;Квартира на вторичном рынке&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* выпадающий список &quot;Я являюсь&quot; заполняется значением &quot;Новый клиент&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* выпадающий список &quot;Уровень доходов подтверждаю&quot; заполняется значением &quot;Справка по форме Банка&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* заполняются поля:" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* выполнено нажатие на &quot;Рассчитать&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* значение поля &quot;Ежемесячный платеж&quot; равно &quot;40 656.67 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* значение поля &quot;Общая сумма выплат&quot; равно &quot;4 836 820.89 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* значение поля &quot;Cумма выплат по процентам&quot; равно &quot;1 836 820.89 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="* значение поля &quot;Процентная ставка&quot; равно &quot;10.49 %&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

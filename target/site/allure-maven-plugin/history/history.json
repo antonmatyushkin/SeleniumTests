@@ -1,20 +1,21 @@
 {
   "f418c22e99999a15e490fb908fe3f204" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c40c664b910c7dce",
-      "status" : "passed",
+      "uid" : "8ba65b055c6e06f1",
+      "status" : "failed",
+      "statusDetails" : "ru.raiffeisen.demo.pages.null",
       "time" : {
-        "start" : 1543343746544,
-        "stop" : 1543343753410,
-        "duration" : 6866
+        "start" : 1543345716921,
+        "stop" : 1543345723811,
+        "duration" : 6890
       }
     } ]
   }

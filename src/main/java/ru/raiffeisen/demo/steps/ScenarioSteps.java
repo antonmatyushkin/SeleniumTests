@@ -5,10 +5,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import ru.raiffeisen.demo.pages.BasePage;
-import ru.raiffeisen.demo.pages.DepositListPage;
-import ru.raiffeisen.demo.pages.DepositPage;
-import ru.raiffeisen.demo.pages.TransferPage;
+import ru.raiffeisen.demo.pages.*;
 import ru.raiffeisen.demo.utils.DriverManager;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
@@ -18,6 +15,7 @@ public class ScenarioSteps {
     TransferPage transferPage = new TransferPage();
     DepositPage depositPage = new DepositPage();
     DepositListPage depositListPage = new DepositListPage();
+    MortgageCalculatorPage mortgageCalculatorPage = new MortgageCalculatorPage();
     static String currentPageName;
 
     @When("выбран вклад \"(.*)\"")
@@ -30,6 +28,7 @@ public class ScenarioSteps {
         }
         Assert.fail("Не найден элмент коллеции - " + depositName);
     }
+
 
     @When("загружена страница \"(.*)\"")
     public void setCurrentPage(String pageName){
@@ -49,9 +48,19 @@ public class ScenarioSteps {
         page.fillField(name, value);
     }
 
+    @When("проверили, что (.*) страницы \"(.*)\"")
+    public void checkPageHeader(String name, String value) throws Exception {
+        Class example = Class.forName("ru.raiffeisen.demo.pages." + currentPageName);
+        BasePage page = (BasePage) example.newInstance();
+        Assert.assertEquals(value, page.getField(name).getText());
+    }
+
+
     @When("значение поля \"(.*)\" равно \"(.*)\"")
     public void checkField(String name, String value) throws Exception {
-        Assert.assertEquals(value, transferPage.getField(name).getAttribute("value"));
+        Class example = Class.forName("ru.raiffeisen.demo.pages." + currentPageName);
+        BasePage page = (BasePage) example.newInstance();
+        Assert.assertEquals(value, page.getField(name).getAttribute("value"));
     }
 
     @When("значение ошибки в поле \"(.*)\" равно \"(.*)\"")

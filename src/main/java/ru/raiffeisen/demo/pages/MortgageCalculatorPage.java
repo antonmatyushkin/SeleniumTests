@@ -4,14 +4,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import ru.raiffeisen.demo.annotation.FieldName;
 
-public class MortgageCalculatorPage {
+public class MortgageCalculatorPage extends BasePage {
 
     @FindBy(xpath = "//h1")
     @FieldName(name = "Заголовок")
     public WebElement header;
 
     @FindBy(xpath = "//div[contains(text(),'Город')]/preceding-sibling::span")
-    @FieldName(name = "Список город")
+    @FieldName(name = "Город")
     public WebElement cityList;
 
     @FindBy(xpath = "//li/div[contains(text(),'Москва')]")
@@ -78,5 +78,9 @@ public class MortgageCalculatorPage {
     @FieldName(name = "Процентная ставка")
     public WebElement interestRate;
 
+    @Override
+    public WebElement getField(String className) throws Exception {
+        return getField(className, "ru.raiffeisen.demo.pages.MortgageCalculatorPage");
+    }
 
 }
