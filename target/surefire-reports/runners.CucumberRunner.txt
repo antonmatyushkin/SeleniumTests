@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: runners.CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 2, Skipped: 11, Time elapsed: 7.813 s <<< FAILURE! - in runners.CucumberRunner
-* проверили, что Заголовок страницы "Ипотечный калькулятор"(Сценарий: Ипотека: квартира на вторичном рынке)  Time elapsed: 0.006 s  <<< ERROR!
-java.lang.ClassNotFoundException: ru.raiffeisen.demo.pages.null
+Tests run: 20, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 51.914 s <<< FAILURE! - in runners.CucumberRunner
+* значение поля "Ежемесячный платеж" равно "40 656.67 руб."(Сценарий: Ипотека: квартира на вторичном рынке)  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: expected:<40 656.67 руб.> but was:<null>
 
-Сценарий: Ипотека: квартира на вторичном рынке  Time elapsed: 0.006 s  <<< ERROR!
-java.lang.ClassNotFoundException: ru.raiffeisen.demo.pages.null
+Сценарий: Ипотека: квартира на вторичном рынке  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: expected:<40 656.67 руб.> but was:<null>
 

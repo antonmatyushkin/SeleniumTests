@@ -79,7 +79,9 @@ public class ScenarioSteps {
 
     @When("поле \"(.*)\" доступно")
     public void checkIsEnabled(String name) throws Exception {
-        Assert.assertTrue("Кнопка - "+ name +" не активна", transferPage.getField(name).isEnabled());
+        Class example = Class.forName("ru.raiffeisen.demo.pages." + currentPageName);
+        BasePage page = (BasePage) example.newInstance();
+        Assert.assertTrue("Кнопка - "+ name +" не активна", page.getField(name).isEnabled());
     }
 
     @When("выполнено нажатие на \"(.*)\"")
@@ -91,15 +93,19 @@ public class ScenarioSteps {
 
     @When("выпадающий список \"(.*)\" заполняется значением \"(.*)\"")
     public void selectInput(String field, String value) throws Exception {
-        WebElement element = transferPage.getField(field);
-        transferPage.selectInput(element, value);
+        Class example = Class.forName("ru.raiffeisen.demo.pages." + currentPageName);
+        BasePage page = (BasePage) example.newInstance();
+        WebElement element = page.getField(field);
+        page.selectInput(element, value);
     }
 
     @When("поле \"(.*)\" присутствует")
     public void checkFieldIsPresent(String name)throws Exception{
         try {
             DriverManager.getDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-            Assert.assertTrue(String.format("Элемент [%s] не видимый", name), transferPage.getField(name).isDisplayed());
+            Class example = Class.forName("ru.raiffeisen.demo.pages." + currentPageName);
+            BasePage page = (BasePage) example.newInstance();
+            Assert.assertTrue(String.format("Элемент [%s] не видимый", name), page.getField(name).isDisplayed());
         }catch (NoSuchElementException e){
             Assert.fail(String.format("Отсутствует элемент [%s]", name));
         }finally {
