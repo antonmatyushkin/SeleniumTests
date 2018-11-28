@@ -46,13 +46,12 @@ public abstract class BasePage {
     public void fillField(WebElement field, String value) throws InterruptedException {
 //        JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
 //        js.executeScript("return arguments[0].style.border='1px solid magenta';", field);
-        Thread.sleep(500);
-        field.clear();
-        Thread.sleep(500);
+        field.click();
+//        field.clear();
+        field.sendKeys(Keys.chord(Keys.CONTROL, "a"));
+        field.sendKeys(Keys.DELETE);
         field.sendKeys(value);
-        field.sendKeys(Keys.TAB);
-        field.sendKeys(Keys.TAB);
-//        Thread.sleep(500);
+//        field.sendKeys(Keys.TAB);
 //        js.executeScript("return arguments[0].style.border='1px solid black';", field);
     }
 
@@ -63,6 +62,7 @@ public abstract class BasePage {
     public void click(String name) throws Exception {
         WebElement element = getField(name);
         click(element);
+        Thread.sleep(3000);
     }
 
     public void selectMenuItem(List<WebElement> menuItems, String itemName) {

@@ -55,9 +55,15 @@ public class ScenarioSteps {
         Assert.assertEquals(value, page.getField(name).getText());
     }
 
+    @When("проверяю, что поле \"(.*)\" содержит текст \"(.*)\"")
+    public void checkTextField(String name, String value) throws Exception {
+        Class example = Class.forName("ru.raiffeisen.demo.pages." + currentPageName);
+        BasePage page = (BasePage) example.newInstance();
+        Assert.assertEquals(value, page.getField(name).getText());
+    }
 
     @When("значение поля \"(.*)\" равно \"(.*)\"")
-    public void checkField(String name, String value) throws Exception {
+    public void checkValueField(String name, String value) throws Exception {
         Class example = Class.forName("ru.raiffeisen.demo.pages." + currentPageName);
         BasePage page = (BasePage) example.newInstance();
         Assert.assertEquals(value, page.getField(name).getAttribute("value"));
@@ -134,7 +140,7 @@ public class ScenarioSteps {
         fields.asMap(String.class, String.class).forEach(
                 (k, v) -> {
                     try {
-                        checkField(k, v);
+                        checkTextField(k, v);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

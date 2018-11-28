@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.CucumberRunner" time="51.914" tests="20" errors="0" skipped="3" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.CucumberRunner" time="46.08" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ruagpqp\AppData\Local\Temp\surefire5675552308856804078\surefirebooter5709846082207679536.jar C:\Users\ruagpqp\AppData\Local\Temp\surefire5675552308856804078 2018-11-28T16-59-01_078-jvmRun1 surefire1514540546049226510tmp surefire_01227296965212620390tmp"/>
+    <property name="sun.java.command" value="C:\Users\ruagpqp\AppData\Local\Temp\surefire4511815006065691198\surefirebooter3416783235501842193.jar C:\Users\ruagpqp\AppData\Local\Temp\surefire4511815006065691198 2018-11-28T19-27-15_026-jvmRun1 surefire668979769462159227tmp surefire_0557825778064934105tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\ruagpqp\java_learn\SeleniumTests\target\test-classes;C:\Users\ruagpqp\java_learn\SeleniumTests\target\classes;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\ruagpqp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ruagpqp\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ruagpqp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ruagpqp\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ruagpqp\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\ruagpqp\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ruagpqp\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\ruagpqp\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ruagpqp\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ruagpqp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ruagpqp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\ruagpqp\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\ruagpqp\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\ruagpqp\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\ruagpqp\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\ruagpqp\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\ruagpqp\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ruagpqp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ruagpqp\.m2\repository\io\qameta\allure\allure-cucumber-jvm\2.8.0\allure-cucumber-jvm-2.8.0.jar;C:\Users\ruagpqp\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\ruagpqp\.m2\repository\io\qameta\allure\allure-java-commons\2.8.0\allure-java-commons-2.8.0.jar;C:\Users\ruagpqp\.m2\repository\io\qameta\allure\allure-model\2.8.0\allure-model-2.8.0.jar;C:\Users\ruagpqp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\ruagpqp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\ruagpqp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\ruagpqp\.m2\repository\org\apache\tika\tika-core\1.19.1\tika-core-1.19.1.jar;C:\Users\ruagpqp\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\ruagpqp\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\ruagpqp\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;"/>
     <property name="allure.results.directory" value="C:\Users\ruagpqp\java_learn\SeleniumTests\target/allure-results"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ruagpqp\AppData\Local\Temp\surefire5675552308856804078\surefirebooter5709846082207679536.jar;C:\Users\ruagpqp\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ruagpqp\AppData\Local\Temp\surefire4511815006065691198\surefirebooter3416783235501842193.jar;C:\Users\ruagpqp\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,7 +46,6 @@
     <property name="file.encoding" value="Cp1251"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\ruagpqp\.m2\repository"/>
-    <property name="cucumber.options" value="--plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\ruagpqp\AppData\Local\Temp\"/>
     <property name="idea.version" value="2018.1"/>
@@ -66,36 +65,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="* загружена страница &quot;MainPage&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.006"/>
-  <testcase name="* подтвержден регион" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.001"/>
+  <testcase name="* загружена страница &quot;MainPage&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.001"/>
+  <testcase name="* подтвержден регион" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
   <testcase name="* выбран пункт меню &quot;Ипотека&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
   <testcase name="* выбрана услуга &quot;Ипотечный калькулятор&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
   <testcase name="* загружена страница &quot;MortgageCalculatorPage&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
   <testcase name="* проверили, что Заголовок страницы &quot;Ипотечный калькулятор&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
   <testcase name="* выпадающий список &quot;Город&quot; заполняется значением &quot;Москва&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
-  <testcase name="* выполнено нажатие на &quot;Знаю свою ипотечную программу&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.001"/>
-  <testcase name="* выпадающий список &quot;Вид ипотечной программы&quot; заполняется значением &quot;Квартира на вторичном рынке&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.001"/>
+  <testcase name="* выполнено нажатие на &quot;Знаю свою ипотечную программу&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
+  <testcase name="* выпадающий список &quot;Вид ипотечной программы&quot; заполняется значением &quot;Квартира на вторичном рынке&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
   <testcase name="* выпадающий список &quot;Я являюсь&quot; заполняется значением &quot;Новый клиент&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
   <testcase name="* выпадающий список &quot;Уровень доходов подтверждаю&quot; заполняется значением &quot;Справка по форме Банка&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
-  <testcase name="* поле &quot;В банке возьму&quot; заполняется значением &quot;3000000&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.001"/>
+  <testcase name="* поле &quot;В банке возьму&quot; заполняется значением &quot;3000000&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
   <testcase name="* поле &quot;Первоначальный взнос&quot; заполняется значением &quot;3500000&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
-  <testcase name="* поле &quot;Срок кредита&quot; заполняется значением &quot;10&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
+  <testcase name="* поле &quot;Срок кредита&quot; заполняется значением &quot;10&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.001"/>
   <testcase name="* выполнено нажатие на &quot;Рассчитать&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
-  <testcase name="* значение поля &quot;Ежемесячный платеж&quot; равно &quot;40 656.67 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.03">
-    <failure message="expected:&lt;40 656.67 руб.&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<40 656.67 руб.> but was:<null>
-]]></failure>
-  </testcase>
-  <testcase name="Сценарий: Ипотека: квартира на вторичном рынке" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.03">
-    <failure message="expected:&lt;40 656.67 руб.&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<40 656.67 руб.> but was:<null>
-]]></failure>
-  </testcase>
-  <testcase name="* значение поля &quot;Общая сумма выплат&quot; равно &quot;4 836 820.89 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="* значение поля &quot;Cумма выплат по процентам&quot; равно &quot;1 836 820.89 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="* значение поля &quot;Процентная ставка&quot; равно &quot;10.49 %&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="* проверяю, что поле &quot;Ежемесячный платеж&quot; содержит текст &quot;40 656.67 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
+  <testcase name="* проверяю, что поле &quot;Общая сумма выплат&quot; содержит текст &quot;4 836 819.11 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
+  <testcase name="* проверяю, что поле &quot;Cумма выплат по процентам&quot; содержит текст &quot;1 836 819.11 руб.&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0.001"/>
+  <testcase name="* проверяю, что поле &quot;Процентная ставка&quot; содержит текст &quot;10.49 %&quot;" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="0"/>
+  <testcase name="Сценарий: Ипотека: квартира на вторичном рынке" classname="Сценарий: Ипотека: квартира на вторичном рынке" time="1.071"/>
 </testsuite>

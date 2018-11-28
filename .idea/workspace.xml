@@ -3,31 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="093902de-8752-49da-afda-3387643e7622" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/MortgageCalculator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/MortgageCalculator.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/be1c3862-e937-4858-bd79-3ab12a7f6fc7-attachment.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ипотечный-калькулятор;ипотека:-квартира-на-вторичном-рынке-result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/raiffeisen/demo/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/raiffeisen/demo/pages/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/raiffeisen/demo/steps/ScenarioSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/raiffeisen/demo/steps/ScenarioSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/allure-maven.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/attachments/70a826679dfa44cd.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/graph.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/test-cases/8ba65b055c6e06f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/widgets.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/widgets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/data/xunit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/export/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/allure-maven-plugin/history/history.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.CucumberRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-runners.CucumberRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/runners.CucumberRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/runners.CucumberRunner.txt" afterDir="false" />
     </list>
@@ -42,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+            <state relative-caret-position="131">
+              <caret line="51" column="36" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="51" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +39,8 @@
       <file leaf-file-name="ScenarioSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="236">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1222#1223#0" expanded="true" />
@@ -73,8 +55,8 @@
       <file leaf-file-name="MortgageCalculatorPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/MortgageCalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="260">
+              <caret line="64" column="108" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +67,50 @@
       <file leaf-file-name="MortgageCalculator.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/features/MortgageCalculator.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CucumberRunner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="860">
+              <caret line="43" column="113" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="79" selection-start-column="79" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllureReporter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositeListPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/AssuranceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsurancePage.java" />
@@ -159,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/InsurancePage_old.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/InsuranceSteps_old.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps_old.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositListSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/TransferTest.feature" />
@@ -170,9 +192,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/MainSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/MortgageCalculatorPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/MortgageCalculator.feature" />
         <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/features/MortgageCalculator.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -204,7 +228,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-4" />
     <option name="y" value="-4" />
     <option name="width" value="1928" />
@@ -269,6 +293,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,6 +333,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumTests" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-maven-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -308,6 +365,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543345717953" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -371,7 +429,7 @@
               <list>
                 <option value="clean" />
                 <option value="-Denvironment=application" />
-                <option value="test" />
+                <option value="install" />
                 <option value="allure:report" />
               </list>
             </option>
@@ -457,8 +515,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1060" extended-state="7" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1288" height="1004" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -469,11 +526,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2647727" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2786753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -511,9 +568,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/LessonTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork1011.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/HomeWork0711.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/raiffeisen/pages/utils/steps/BasePage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/raiffeisen/pages/MainPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/annotation/FieldName.java">
@@ -572,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/DepositListPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -601,24 +648,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/DepositListSteps.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runners/CucumberReRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -686,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/MortgageCalculatorPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="260">
+          <caret line="64" column="108" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="108" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -696,15 +729,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/features/MortgageCalculator.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/steps/ScenarioSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="236">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1222#1223#0" expanded="true" />
@@ -717,11 +750,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        <state relative-caret-position="131">
+          <caret line="51" column="36" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="51" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/allure-results/allure.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/raiffeisen/demo/reporter/AllureReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="79" selection-start-column="79" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/CucumberRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/allure-maven-plugin/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="113" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="113" />
         </state>
       </provider>
     </entry>

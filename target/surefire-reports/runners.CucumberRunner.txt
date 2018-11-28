@@ -1,10 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 51.914 s <<< FAILURE! - in runners.CucumberRunner
-* значение поля "Ежемесячный платеж" равно "40 656.67 руб."(Сценарий: Ипотека: квартира на вторичном рынке)  Time elapsed: 0.03 s  <<< FAILURE!
-java.lang.AssertionError: expected:<40 656.67 руб.> but was:<null>
-
-Сценарий: Ипотека: квартира на вторичном рынке  Time elapsed: 0.03 s  <<< FAILURE!
-java.lang.AssertionError: expected:<40 656.67 руб.> but was:<null>
-
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.08 s - in runners.CucumberRunner
